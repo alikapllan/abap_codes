@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Web Service</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZAHK_WEBSERVICE_GROUPTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZAHK_WEBSERVICE_GROUP</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZAHK_WEBSERVICE_CITY</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>FuBa Stadt</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_CITY_ID</PARAMETER>
+       <TYP>NUMC2</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_CITY_NAME</PARAMETER>
+       <TYP>CHAR30</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_SUCCESS</PARAMETER>
+       <TYP>XFELD</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_MESSAGE</PARAMETER>
+       <TYP>BAPI_MSG</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_CITY_ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>30 Characters</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_CITY_NAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>30 Characters</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_SUCCESS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Feld zum Ankreuzen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_MESSAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Meldungstext</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

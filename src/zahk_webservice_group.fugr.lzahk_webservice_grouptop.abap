@@ -1,0 +1,3 @@
+FUNCTION-POOL ZAHK_WEBSERVICE_GROUP.        "MESSAGE-ID ..
+
+* INCLUDE LZAHK_WEBSERVICE_GROUPD...         " Local class definition
